@@ -21,6 +21,7 @@ body {
     font-style: normal;
     font-size: 18px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -120,7 +121,7 @@ body {
     }
 }
 
-@media screen and (min-width: 576px) and (min-height: 576px) {
+@media screen and (min-width: 576px) and (min-height: 450px) {
     .card {
         max-width: 700px;
         display: flex;
