@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/images/favicon-32x32.png"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <title>Frontend Mentor | Results summary component</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <style>
+            .attribution {
+                font-size: 11px;
+                text-align: center;
+            }
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card text-pale-blue">
+            <div class="result">
+                <span class="fw-bold fs-2md">Your Result</span>
+                <div class="score d-flex flex-col">
+                    <span class="text-white fs-xl fw-bold">76</span
+                    ><span> of 100</span>
+                </div>
+                <span class="text-white fs-2md fw-bold">Great</span>
+                <span>
+                    You scored higher than 65% of the people who have taken
+                    these tests.
+                </span>
+            </div>
+            <div class="summary d-flex flex-col fw-bold">
+                <span class="text-dark-blue">Summary</span>
+                <ul class="d-flex flex-col">
+                    <li class="bg-pale-red">
+                        <span class="text-red">Reaction</span>
+                        <div><span class="text-dark-blue">80</span> / 100</div>
+                    </li>
+                    <li class="bg-pale-yellow">
+                        <span class="text-yellow">Memory</span>
+                        <div><span class="text-dark-blue">92</span> / 100</div>
+                    </li>
+                    <li class="bg-pale-green">
+                        <span class="text-green">Verbal</span>
+                        <div><span class="text-dark-blue">61</span> / 100</div>
+                    </li>
+                    <li class="bg-pale-blue">
+                        <span class="text-blue">Visual</span>
+                        <div><span class="text-dark-blue">72</span> / 100</div>
+                    </li>
+                </ul>
+                <button class="text-white">Continue</button>
+            </div>
+        </div>
+
+        <div class="attribution" style="position: absolute; bottom: 0">
+            Challenge by
+            <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+            >. Coded by
+            <a href="https://github.com/Aj-Herrera-99" target="_blank"
+                >Aj-Herrera-99</a
+            >.
+        </div>
+    </body>
+</html>
